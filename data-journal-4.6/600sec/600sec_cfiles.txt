@@ -1,0 +1,19 @@
+Filebench Version 1.4.9.1
+14650: 0.000: Allocated 170MB of shared memory
+14650: 0.039: Createfiles Version 3.0 personality successfully loaded
+14650: 0.039: Creating/pre-allocating files and filesets
+14650: 0.112: Fileset bigfileset: 50000 files, 0 leafdirs, avg dir width = 100, avg dir depth = 2.3, 778.397MB
+14650: 9.374: Removed any existing fileset bigfileset in 1 seconds
+14650: 9.374: Creating fileset bigfileset...
+14650: 9.536: Preallocated 0 of 50000 of fileset bigfileset in 1 seconds
+14650: 9.536: waiting for fileset pre-allocation to finish
+14653: 9.536: Starting 1 filecreate instances
+14654: 9.552: Starting 16 filecreatethread threads
+14650: 10.581: Running...
+14650: 449.556: Run took 431 seconds...
+14650: 455.364: Per-Operation Breakdown
+closefile1           49990ops      114ops/s   0.0mb/s      0.0ms/op      817us/op-cpu [0ms - 0ms]
+writefile1           49995ops      114ops/s   1.8mb/s     43.9ms/op     1289us/op-cpu [0ms - 13237ms]
+createfile1          50000ops      114ops/s   0.0mb/s     93.4ms/op     1234us/op-cpu [0ms - 13237ms]
+14650: 455.364: IO Summary: 149985 ops, 343.332 ops/s, (0/114 r/w),   1.8mb/s,  35469us cpu/op, 137.4ms latency
+14650: 455.364: Shutting down processes

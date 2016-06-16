@@ -1,0 +1,6 @@
+rwrite 1.5mb/s
+swrite 7.6mb/s
+cfiles 1.8mb/s
+fserver 5.6mb/s
+wserver 3.4mb/s
+vmail 0.3mb/s

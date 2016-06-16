@@ -1,0 +1,18 @@
+Filebench Version 1.4.9.1
+14620: 0.000: Allocated 170MB of shared memory
+14620: 9.412: Single Stream Write Version 3.0 personality successfully loaded
+14620: 9.412: Creating/pre-allocating files and filesets
+14620: 9.417: File largefile1: 0.000MB
+14620: 9.439: Removed any existing file largefile1 in 1 seconds
+14620: 9.439: making tree for filset /opt/fs/benchmarks/bench_tmp/largefile1
+14620: 9.439: Creating file largefile1...
+14620: 9.439: Preallocated 1 of 1 of file largefile1 in 1 seconds
+14620: 9.439: waiting for fileset pre-allocation to finish
+14623: 9.439: Starting 1 seqwrite instances
+14624: 9.452: Starting 1 seqwrite threads
+14620: 10.452: Running...
+14620: 618.602: Run took 600 seconds...
+14620: 620.354: Per-Operation Breakdown
+seqwrite             4546ops        8ops/s   7.6mb/s    133.3ms/op     2217us/op-cpu [1ms - 26439ms]
+14620: 620.354: IO Summary:  4546 ops, 7.554 ops/s, (0/8 r/w),   7.6mb/s, 533700us cpu/op, 133.3ms latency
+14620: 620.354: Shutting down processes

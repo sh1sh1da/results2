@@ -1,0 +1,30 @@
+Filebench Version 1.4.9.1
+ 2005: 0.000: Allocated 170MB of shared memory
+ 2005: 0.032: Varmail Version 3.0 personality successfully loaded
+ 2005: 0.032: Creating/pre-allocating files and filesets
+ 2005: 0.037: Fileset bigfileset: 1000 files, 0 leafdirs, avg dir width = 1000000, avg dir depth = 0.5, 14.959MB
+ 2005: 0.064: Removed any existing fileset bigfileset in 1 seconds
+ 2005: 0.064: making tree for filset /opt/fs/benchmarks/bench_tmp/bigfileset
+ 2005: 0.065: Creating fileset bigfileset...
+ 2005: 0.100: Preallocated 805 of 1000 of fileset bigfileset in 1 seconds
+ 2005: 0.100: waiting for fileset pre-allocation to finish
+ 2008: 0.100: Starting 1 filereader instances
+ 2009: 0.101: Starting 16 filereaderthread threads
+ 2005: 1.106: Running...
+ 2005: 601.154: Run took 600 seconds...
+ 2005: 601.155: Per-Operation Breakdown
+closefile4           363542ops      606ops/s   0.0mb/s      0.0ms/op       45us/op-cpu [0ms - 0ms]
+readfile4            363542ops      606ops/s   9.5mb/s      0.0ms/op       63us/op-cpu [0ms - 130ms]
+openfile4            363542ops      606ops/s   0.0mb/s      0.0ms/op       60us/op-cpu [0ms - 0ms]
+closefile3           363542ops      606ops/s   0.0mb/s      0.0ms/op       61us/op-cpu [0ms - 0ms]
+fsyncfile3           363542ops      606ops/s   0.0mb/s     24.9ms/op    12859us/op-cpu [0ms - 1438ms]
+appendfilerand3      363557ops      606ops/s   4.7mb/s      0.1ms/op       95us/op-cpu [0ms - 85ms]
+readfile3            363557ops      606ops/s   8.5mb/s      0.0ms/op       62us/op-cpu [0ms - 117ms]
+openfile3            363557ops      606ops/s   0.0mb/s      0.0ms/op       52us/op-cpu [0ms - 0ms]
+closefile2           363557ops      606ops/s   0.0mb/s      0.0ms/op       56us/op-cpu [0ms - 0ms]
+fsyncfile2           363558ops      606ops/s   0.0mb/s      0.5ms/op      226us/op-cpu [0ms - 812ms]
+appendfilerand2      363558ops      606ops/s   4.7mb/s      0.1ms/op      104us/op-cpu [0ms - 26ms]
+createfile2          363558ops      606ops/s   0.0mb/s      0.1ms/op       84us/op-cpu [0ms - 40ms]
+deletefile1          363453ops      606ops/s   0.0mb/s      0.1ms/op      114us/op-cpu [0ms - 194ms]
+ 2005: 601.155: IO Summary: 4726064 ops, 7876.149 ops/s, (1212/1212 r/w),  27.5mb/s,    361us cpu/op,   6.4ms latency
+ 2005: 601.155: Shutting down processes
