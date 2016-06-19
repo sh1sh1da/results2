@@ -1,0 +1,12 @@
+Filebench Version 1.4.9.1
+ 1967: 0.000: Allocated 170MB of shared memory
+ 1967: 5.416: Single Stream Write Version 3.0 personality successfully loaded
+ 1967: 5.641: Creating/pre-allocating files and filesets
+ 1967: 5.799: File largefile1: 0.000MB
+ 1967: 6.550: Removed any existing file largefile1 in 1 seconds
+ 1967: 6.550: making tree for filset /opt/fs/benchmarks/bench_tmp/largefile1
+ 1967: 6.662: Creating file largefile1...
+ 1967: 6.662: Preallocated 1 of 1 of file largefile1 in 1 seconds
+ 1967: 6.662: waiting for fileset pre-allocation to finish
+ 1980: 6.662: Starting 1 seqwrite instances
+ 1981: 6.695: Starting 1 seqwrite threads

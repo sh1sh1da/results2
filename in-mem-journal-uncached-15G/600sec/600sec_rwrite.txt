@@ -1,0 +1,8 @@
+Filebench Version 1.4.9.1
+ 1875: 0.000: Allocated 170MB of shared memory
+ 1875: 0.039: Random Write Version 3.0 personality successfully loaded
+ 1875: 0.039: Creating/pre-allocating files and filesets
+ 1875: 0.044: File largefile1: 5120.000MB
+ 1875: 0.072: Removed any existing file largefile1 in 1 seconds
+ 1875: 0.072: making tree for filset /opt/fs/benchmarks/bench_tmp/largefile1
+ 1875: 0.072: Creating file largefile1...

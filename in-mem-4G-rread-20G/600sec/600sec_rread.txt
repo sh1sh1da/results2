@@ -1,0 +1,18 @@
+Filebench Version 1.4.9.1
+ 2164: 0.000: Allocated 170MB of shared memory
+ 2164: 0.032: Random Read Version 3.0 personality successfully loaded
+ 2164: 0.032: Creating/pre-allocating files and filesets
+ 2164: 0.037: File largefile1: 20480.000MB
+ 2164: 0.054: Removed any existing file largefile1 in 1 seconds
+ 2164: 0.054: making tree for filset /opt/fs/benchmarks/bench_tmp/largefile1
+ 2164: 0.054: Creating file largefile1...
+ 2164: 157.410: Preallocated 1 of 1 of file largefile1 in 158 seconds
+ 2164: 157.410: waiting for fileset pre-allocation to finish
+ 2172: 157.410: Starting 1 rand-read instances
+ 2173: 157.451: Starting 1 rand-thread threads
+ 2164: 158.451: Running...
+ 2164: 758.518: Run took 600 seconds...
+ 2164: 758.518: Per-Operation Breakdown
+rand-read1           199963ops      333ops/s   2.6mb/s      2.9ms/op       44us/op-cpu [0ms - 320ms]
+ 2164: 758.518: IO Summary: 199963 ops, 333.234 ops/s, (333/0 r/w),   2.6mb/s,    115us cpu/op,   2.9ms latency
+ 2164: 758.518: Shutting down processes
